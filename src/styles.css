@@ -1,0 +1,24 @@
+#content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article-card{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+.article-title{
+    color: darkblue;
+    font-size: 20px;
+}
+.article-card div{
+    background-color: transparent;
+}
+.article-card div img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
